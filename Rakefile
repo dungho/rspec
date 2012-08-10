@@ -4,4 +4,10 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+require 'rubygems'
+gem 'ci_reporter'
+require 'ci/reporter/rake/rspec' # use this if you're using Test::Unit
+
+
 Rspec::Application.load_tasks
+
