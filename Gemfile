@@ -29,6 +29,8 @@ end
 
 # spork
 gem 'spork', '~> 0.9.0.rc'
+
+gem 'ci_reporter'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
