@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Person do
   it "can be instantiated" do
-    Person.new.should_not be_an_instance_of(Person)
+    Person.new.should be_an_instance_of(Person)
   end
 
   it "can be saved successfully" do
