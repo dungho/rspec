@@ -6,6 +6,6 @@ describe Person do
   end
 
   it "can be saved successfully" do
-    Person.create.should be_persisted
+    Person.create.should_not be_persisted
   end
 end
